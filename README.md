@@ -1,2 +1,2 @@
 # GED-Net
-GED-Net for Image Segmentation
+GED-Net for Ultrasound Image Segmentation
