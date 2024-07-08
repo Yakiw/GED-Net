@@ -27,6 +27,7 @@ pip install -r requirements.txt
 
 The structure of the dataset is:
 
+```
 dataset/
 ├── imgs/
 │   ├── image1.png
@@ -38,6 +39,7 @@ dataset/
 │   ├── image2.png
 │   ├── image3.png
 │   └── ...
+```
 
 And the dataset must be correctly configured in `train.py`， `base = Path(os.environ['raw_data_base']) if 'raw_data_base' in os.environ.keys() else Path('./your dataset')`
 
